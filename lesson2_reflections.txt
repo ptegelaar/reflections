@@ -36,3 +36,11 @@ working on a project, and some are working on the master branch, and others are
 coding up an experimental feature. Also, if you want to use a different
 language, say have a Spanish version of your project, it makes sense to put
 this in a separate branch.
+
+======
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help with visualization because you can see until what point different
+branches share a common code base. Also, you can then inspect the commits to
+see how exactly the different branches differ.
