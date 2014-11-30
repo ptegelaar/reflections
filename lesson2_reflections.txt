@@ -44,3 +44,16 @@ How do the diagrams help you visualize the branch structure?
 Diagrams help with visualization because you can see until what point different
 branches share a common code base. Also, you can then inspect the commits to
 see how exactly the different branches differ.
+
+======
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging two branches together results in one branch that has the code from both
+branches. The parts they have in common stay the same, and what is deleted in
+one branch will be deleted in the new branch. Finally, what has been added in
+either branch will be present in the new branch too. The way we represent it
+makes sense (viewable with "git log --graph --oneline"), because here it is
+easy to see the shared parent of the two branches, and the different commits in
+in both branches up until the moment they are merged.
