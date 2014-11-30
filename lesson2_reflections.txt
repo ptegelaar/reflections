@@ -25,3 +25,14 @@ change?
 You can use the staging area to group files before you commit them. You can
 execute the command "git status" before committing to review what you put in
 the staging area.
+
+======
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Some situations when branches would be helpful is when you have several people
+working on a project, and some are working on the master branch, and others are
+coding up an experimental feature. Also, if you want to use a different
+language, say have a Spanish version of your project, it makes sense to put
+this in a separate branch.
