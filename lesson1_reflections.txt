@@ -60,6 +60,12 @@ So if you mess up, you know that you have versions of your code that do work,
 and it is straightforward to revert back to one of those. Allows you take
 bigger risks with your code base.
 
+Think back as well to previous projects. You were explicitly saving versions
+when you were refactoring code: script.py, then script2.py, etc. Even worse,
+when working on the old file, you change sth and then the script doesn't work
+anymore! In some of those cases it was hard to remember what I had changed
+exactly, and I had to start over again, which was super-annoying.
+
 ======
 
 Now that you have your workspace set up, what do you want to try using Git for?
