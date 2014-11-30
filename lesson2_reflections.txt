@@ -57,3 +57,16 @@ either branch will be present in the new branch too. The way we represent it
 makes sense (viewable with "git log --graph --oneline"), because here it is
 easy to see the shared parent of the two branches, and the different commits in
 in both branches up until the moment they are merged.
+
+======
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+The cons of automatic merging is that you don't have control over what happens
+in the case of merge conflicts. You will want to have a look yourself what the
+conflict is, and decide, perhaps after talking to your colleague, how you want
+to resolve it.
+
+A pro of automatic merging is that it is very convenient. You don't have to go
+over both files to see what should be in the final file and what not.
