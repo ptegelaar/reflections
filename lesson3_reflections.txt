@@ -7,6 +7,8 @@ other people on the same repo, it is by definition a remote repo for all of
 them. Finally, it is impossible to share a local repo with the public, which is
 what a remote repo (set to public) can achieve.
 
+======
+
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
@@ -14,6 +16,8 @@ Pulling changes manually is the better choice because it gives you control over
 your local branch. Otherwise, you might be working on your local version, and
 an automatic pull might cause merge conflicts, which would force you to review
 and resolve these.
+
+======
 
 Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
@@ -24,8 +28,12 @@ are clones on Github’s servers. They are useful when you either can’t be a
 contributor to a project, or you have something different in mind with the
 project compared to the project’s owner(s).
 
+======
+
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
 A benefit of having a copy of the last known state of the remote repo stored is
 that you don't have to download the complete repo every time, just the delta.
+
+======
