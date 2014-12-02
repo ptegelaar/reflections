@@ -1,20 +1,25 @@
-When would you want to create a remote repository rather than keeping all your work local?
+When would you want to create a remote repository rather than keeping all your
+work local?
 
-A remote repository is very convenient when you need to be able to access the repo from
-several different locations. In addition, when you are working with other people on the
-same repo, it is by definition a remote repo for all of them. Finally, it is impossible
-to share a local repo with the public, which is what a remote repo (set to public) can
-achieve.
+A remote repository is very convenient when you need to be able to access the
+repo from several different locations. In addition, when you are working with
+other people on the same repo, it is by definition a remote repo for all of
+them. Finally, it is impossible to share a local repo with the public, which is
+what a remote repo (set to public) can achieve.
 
-Why might you want to always pull changes manually rather than having Git automatically
-stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
 
-Pulling changes manually is the better choice because it gives you control over your local
-branch. Otherwise, you might be working on your local version, and an automatic pull might
-cause merge conflicts, which would force you to review and resolve these.
+Pulling changes manually is the better choice because it gives you control over
+your local branch. Otherwise, you might be working on your local version, and
+an automatic pull might cause merge conflicts, which would force you to review
+and resolve these.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
 
-Branches are used when you want to work on a new feature or fix a bug. Repositories are
-cloned when you want to start contributing to a project. Forks are clones on Github’s
-servers. They are useful when you either can’t be a contributor to a project, or you have something different in mind with the project compared to the project’s owner(s).
+Branches are used when you want to work on a new feature or fix a bug.
+Repositories are cloned when you want to start contributing to a project. Forks
+are clones on Github’s servers. They are useful when you either can’t be a
+contributor to a project, or you have something different in mind with the
+project compared to the project’s owner(s).
