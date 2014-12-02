@@ -37,3 +37,12 @@ A benefit of having a copy of the last known state of the remote repo stored is
 that you don't have to download the complete repo every time, just the delta.
 
 ======
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Without using Git and Github, I would probably use another type of version
+control system. If I also could not use this, then the alternatives are
+Dropbox, Google Docs, or a server where you would ftp to. All these seem
+horrible in comparison, because you lose so many useful features like branching
+and merging, and having a list of commits to encapsulate logical changes.
