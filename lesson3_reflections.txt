@@ -1,1 +1,7 @@
-When would you want to create a remote repository rather than kepping all your work local?
+When would you want to create a remote repository rather than keeping all your work local?
+
+A remote repository is very convenient when you need to be able to access the repo from
+several different locations. In addition, when you are working with other people on the
+same repo, it is by definition a remote repo for all of them. Finally, it is impossible
+to share a local repo with the public, which is what a remote repo (set to public) can
+achieve.
