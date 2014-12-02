@@ -23,3 +23,9 @@ Repositories are cloned when you want to start contributing to a project. Forks
 are clones on Github’s servers. They are useful when you either can’t be a
 contributor to a project, or you have something different in mind with the
 project compared to the project’s owner(s).
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A benefit of having a copy of the last known state of the remote repo stored is
+that you don't have to download the complete repo every time, just the delta.
