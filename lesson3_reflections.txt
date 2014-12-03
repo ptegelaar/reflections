@@ -46,3 +46,28 @@ control system. If I also could not use this, then the alternatives are
 Dropbox, Google Docs, or a server where you would ftp to. All these seem
 horrible in comparison, because you lose so many useful features like branching
 and merging, and having a list of commits to encapsulate logical changes.
+
+======
+
+You just saw that the workflow when making changes in a separate branch is more
+complicated than working directly in master, especially when you need to stay
+up-to-date with changes others are making. Rather than simply pulling and
+pushing, you need to pull changes into your local master branch, merge the
+local master into your branch (different-oil, in our case), then push your
+branch to the remote before finally merging your branch into master, either
+locally or on GitHub.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Master should be the (shared) source of truth. The stable and robust production
+version. When you want to make changes, then you should work on a separate
+branch first and make your commits there. Then, when you are finished with
+that, you can push your branch and make a pull request that you want to merge
+your branch into the master branch.
+
+Making changes to master directly on your local machine is definitely faster.
+However, when you want to push those changes, it might create merge conflicts
+with the master on the remote. Also, there is the drawback of having to
+regularly pull the latest master branch and merging it into your local branch,
+as to not get out of sync.
