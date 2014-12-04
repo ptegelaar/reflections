@@ -50,6 +50,11 @@ exactly got changed in a given commit, you do a git diff with the previous
 version. Then you will be able to see the deletions and additions that are
 present in that commit.
 
+Note that a faster way to see the difference between a commit and the previous
+commit can be achieved with git show [<commit-id>]. git show presents the diff
+the last commit with its parent, whereas git show <commit-id> presents the diff
+between the given commit-id and its parent.
+
 ======
 
 How might using version control make you more confident to make changes that
