@@ -1,6 +1,6 @@
-What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialise a repository? Why do you need to do it?
 
-When you initialize a repository, a .git directory is created. This is
+When you initialise a repository, a .git directory is created. This is
 necessary in order to run git commands in that directory, s.a. git status, git
 commit, etc.
 
