@@ -41,7 +41,7 @@ this in a separate branch.
 
 How do the diagrams help you visualize the branch structure?
 
-Diagrams help with visualization because you can see until what point different
+Diagrams help with visualisation because you can see until what point different
 branches share a common code base. Also, you can then inspect the commits to
 see how exactly the different branches differ.
 
