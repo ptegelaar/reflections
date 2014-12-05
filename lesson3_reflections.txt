@@ -24,7 +24,7 @@ use one instead of another?
 
 Branches are used when you want to work on a new feature or fix a bug.
 Repositories are cloned when you want to start contributing to a project. Forks
-are clones on Github’s servers. They are useful when you either can’t be a
+are just clones on Github’s servers. They are useful when you either can’t be a
 contributor to a project, or you have something different in mind with the
 project compared to the project’s owner(s).
 
