@@ -39,8 +39,8 @@ separately?
 
 Saving multiple files in one commit allows you to encapsulate one logical
 change. Like adding a button, which will affect both the front-end and the
-back-end. For Google Docs, you edit a single file at a time, and it will save
-after this.
+back-end. For Google Docs, you edit files like spreadsheets and presentations,
+which are most likely not as interrelated as a code base.
 
 ======
 
