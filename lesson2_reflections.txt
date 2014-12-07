@@ -24,8 +24,9 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 
 You can use the staging area to group files before you commit them. You can
-execute the command "git status" before committing to review what you put in
-the staging area.
+execute the command "git status" before committing to review the files you put
+in the staging area. For more details, you can run "git diff --staged" to
+review the exact changes you are about to commit.
 
 ======
 
