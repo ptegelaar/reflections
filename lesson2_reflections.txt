@@ -1,8 +1,8 @@
 What happens when you initialise a repository? Why do you need to do it?
 
-When you initialise a repository, a .git directory is created. This is
-necessary in order to run git commands in that directory, s.a. git status, git
-commit, etc.
+When you initialise a repository, a .git file is created. This turns a local
+directory into a git repository. Afterwards, you can run your git commands in
+that directory, s.a. git status, git commit, etc.
 
 ======
 
