@@ -27,7 +27,9 @@ together can be grouped, say fixing typos, or implementing a small new feature.
 
 A con of manually choosing when to commit is that you can forget to commit.
 Then when you eventually do commit, it can be too big. Or something can happen,
-like your computer dying, and you lose all your work.
+like your computer dying, and you lose all your work. In general, it asks more
+of the contributors of a project in terms of judgement calls, so there is the
+dual danger of committing too often & not often enough.
 
 ======
 
