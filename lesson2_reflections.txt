@@ -11,11 +11,12 @@ repository? What value do you think it offers?
 
 The staging area is different from the working directory and the repository in
 that it is an intermediate step. Here you can add files from the working
-directory to the repository. It allows you to individually (or in bulk) files
-to be committed to the repository. This means you can group files that
+directory to the repository. It allows you to individually (or in bulk) add
+files to be committed to the repository. This means you can group files that
 constitute a single logical change. Furthermore, you can double-check if what
 is in the staging area is the actual stuff that you want to commit. If not, you
-can remove files with "git reset <file>".
+can remove files with "git reset <file>" or "git rm --cached <file>..." to
+unstage.
 
 ======
 
