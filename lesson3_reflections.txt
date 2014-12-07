@@ -15,7 +15,7 @@ automatically stay up-to-date with your remote repository?
 Pulling changes manually is the better choice because it gives you control over
 your local branch. Otherwise, you might be working on your local version, and
 an automatic pull might cause merge conflicts, which would force you to review
-and resolve these.
+and resolve these. This would be very interruptive.
 
 ======
 
