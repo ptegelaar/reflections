@@ -45,9 +45,10 @@ and what would be harder?
 
 Without using Git and Github, I would probably use another type of version
 control system. If I also could not use this, then the alternatives are
-Dropbox, Google Docs, or a server where you would ftp to. All these seem
-horrible in comparison, because you lose so many useful features like branching
-and merging, and having a list of commits to encapsulate logical changes.
+Dropbox, Google Docs, or a server where you would ftp to and from. All these
+seem horribly inconvenient in comparison, because you lose so many useful
+features like branching and merging, and having a list of commits to
+encapsulate logical changes.
 
 ======
 
