@@ -35,6 +35,8 @@ stored locally?
 
 A benefit of having a copy of the last known state of the remote repo stored is
 that you don't have to download the complete repo every time, just the delta.
+Furthermore, it gives you an idea how far ahead/behind or out-of-synch you are
+with the remote.
 
 ======
 
